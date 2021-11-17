@@ -1,0 +1,48 @@
+body {
+    background-color: #EEEEEE;
+}
+
+#containers {
+    background-color: white;
+    width: 99%;
+}
+
+#content {
+    width: 100%;
+    display: block;
+}
+
+#sidebar {
+    width: 10%;
+    float: left;
+    background-color: #79a5f4;
+}
+
+#main-content {
+    width: 85%;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    float: right;
+}
+
+#heading {
+    text-align: center;
+    background-color: #79a5f4;
+}
+
+#footer {
+    text-align: center;
+    clear: both;
+}
+
+.handler-docstring {
+    clear: both;
+}
+
+.schema-html {
+    clear: both;
+}
+
+.envvar-desc {
+    clear: both;
+}
