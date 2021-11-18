@@ -7,6 +7,8 @@ from .base import (
 )
 from .api import Api, BadCode
 from .dochandler import doc_handler
+from .jsonschema import ValidationError
+
 
 DragonRequest = namedtuple("DragonRequest", (
     "path",

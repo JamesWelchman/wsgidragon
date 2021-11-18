@@ -3,3 +3,7 @@
 # python stuff
 venv/
 **/__pycache__
+
+
+# sphinx
+doc/html

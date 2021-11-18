@@ -31,6 +31,9 @@ class Api:
     def build_response(self, body):
         """
         """
+        if body is None:
+            body = b""
+
         return "", body
 
     def validate_status_code(self, code):
